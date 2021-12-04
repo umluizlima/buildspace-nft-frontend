@@ -9,7 +9,7 @@ const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
-const CONTRACT_ADDRESS = "0xBCD720317A6a30d297a173776628EB6044Ae28B3";
+const CONTRACT_ADDRESS = "0xAc6989d12D7Ad804404c62Ff72B2adB1cC325731";
 
 const App = () => {
 
@@ -43,6 +43,7 @@ const App = () => {
       const account = accounts[0];
       console.log("Found an authorized account:", account);
       setCurrentAccount(account)
+      setupEventListener()
     } else {
       console.log("No authorized account found")
     }
