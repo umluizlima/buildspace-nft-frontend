@@ -75,7 +75,7 @@ const App = () => {
   }
 
   const askContractToMintNft = async () => {
-    const CONTRACT_ADDRESS = "INSERT_YOUR_DEPLOYED_RINKEBY_CONTRACT_ADDRESS";
+    const CONTRACT_ADDRESS = "0x15f029ee578337cad48Af26C6022Ce47A29fb086";
 
     try {
       const { ethereum } = window;
