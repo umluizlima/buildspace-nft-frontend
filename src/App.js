@@ -5,11 +5,11 @@ import twitterLogo from './assets/twitter-logo.svg';
 import myEpicNft from './utils/MyEpicNFT.json';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'umluizlima';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
 const CONTRACT_ADDRESS = "0xAc6989d12D7Ad804404c62Ff72B2adB1cC325731";
+const RARIBLE_LINK = `https://rinkeby.rarible.com/collection/${CONTRACT_ADDRESS}`;
 
 const App = () => {
 
@@ -177,6 +177,11 @@ const App = () => {
               Mint NFT
             </button>
           )}
+          <div>
+            <button onClick={() => window.open(RARIBLE_LINK, "_blank").focus()} className="cta-button rarible-button">
+              See collection
+            </button>
+          </div>
         </div>
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
@@ -185,7 +190,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
