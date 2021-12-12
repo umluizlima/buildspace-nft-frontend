@@ -8,7 +8,7 @@ import myEpicNft from './utils/MyEpicNFT.json';
 const TWITTER_HANDLE = 'umluizlima';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const TOTAL_MINT_COUNT = 50;
-const CONTRACT_ADDRESS = "0xAc6989d12D7Ad804404c62Ff72B2adB1cC325731";
+const CONTRACT_ADDRESS = "0x3ce4B6CDd9173c15D1BE64353f11bd83B506c60d";
 const RARIBLE_LINK = `https://rinkeby.rarible.com/collection/${CONTRACT_ADDRESS}`;
 
 const App = () => {
