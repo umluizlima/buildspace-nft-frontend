@@ -1,11 +1,11 @@
-# buildspace Mint Your Own NFT Collection
+# buildspace-nft-frontend
 
-### **Welcome 👋**
-To get started with this course, clone this repo and follow these commands:
+This repo contains code for the frontend that is given in [Buildspace's NFT course](https://app.buildspace.so/projects/CO961ddb5f-f428-4608-9949-a9a2f461eb3f).
 
-1. Run `npm install` at the root of your directory
-2. Run `npm run start` to start the project
-3. Start coding!
+## Development
+1. Run `npm install`;
+2. Run `npm run start`;
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO961ddb5f-f428-4608-9949-a9a2f461eb3f) and link your Discord account so you can get access to helpful channels and your instructor!
+## Deployment
+1. Replace usages of `buildspace-nft.umluizlima.dev` with your own website address;
+1. Run `npm run deploy`;
